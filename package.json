@@ -79,7 +79,6 @@
     "prettier": "^2.7.1"
   },
   "readme": "ERROR: No README data found!",
-  "_id": "learnstorybook-design-system-template@0.1.0",
   "main": "index.js",
   "repository": "https://github.com/sbjang123456/storybook-tutorial-design-system.git",
   "author": "sbjang <sbjang123456@gmail.com>",
