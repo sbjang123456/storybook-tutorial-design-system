@@ -10,5 +10,6 @@ module.exports = {
     '@storybook/addon-a11y',
     "@storybook/preset-create-react-app"
   ],
-  "framework": "@storybook/react"
+  "framework": "@storybook/react",
+  "staticDirs": ['../public'],
 }

@@ -17,7 +17,15 @@ export default {
       options: ['tiny', 'small', 'medium', 'large'],
     },
   },
+  /*
+  * More on Storybook parameters at:
+  * https://storybook.js.org/docs/react/writing-stories/parameters#component-parameters
+  */
+  parameters: {
+    componentSubtitle: 'Displays an image that represents a user or organization',
+  },
 };
+
 
 // Other Avatar stories
 
@@ -58,6 +66,9 @@ export const Sizes = (args) => (
 Sizes.args = {
   username: "Tom Coleman",
   src: "https://avatars2.githubusercontent.com/u/132554",
+};
+Sizes.parameters = {
+  storyDescription: '4 sizes are supported.',
 };
 
 export const Initials = (args) => (
